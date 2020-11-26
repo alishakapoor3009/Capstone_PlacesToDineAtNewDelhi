@@ -1,0 +1,37 @@
+2) Data
+
+2.1 Source of Data
+
+Foursquare API to select the number of restaurants and their locations in New Delhi. 
+ Zomato API to fetch ratings and average price of the restaurants using my developer credentials.
+
+
+I will first create a dataset thought the Foursquare API to explore several types of venues, such as ID, name, latitude, longitude, neighborhood, and distance (in meters) to Connaught place which is a hub for restaurants in Delhi.
+
+And then I will use Zomato API to fetch price for two and ratings of the restaurants. My main intent for using Zomato API is to fetch the average price and ratings.
+
+
+I will then create the combined data set which I would then use further for my analysis.
+
+
+Using the Foursquare API
+
+
+url = 'https://api.foursquare.com/v2/venues/explore?&client_id={}&client_secret={}&v={}&ll={},{}&radius={}&limit={}'.format(
+    CLIENT_ID, 
+    CLIENT_SECRET, 
+    VERSION, 
+    CP_latitude, 
+    CP_longitude, 
+    radius, 
+    LIMIT,
+)
+
+
+
+
+Using Zomato API
+
+
+ url = ('https://developers.zomato.com/api/v2.1/search?q={}' + 
+          '&start=0&count=1&lat={}&lon={}&sort=real_distance').format(row['name'], row['lat'], row['lng']
