@@ -9,8 +9,9 @@ Introduction
 
 
 The intent is to analyze types of restaurants on the basis of their location, ratings and price.
-For some one who wants to dine at the best restaurants in Delhi, 
-this is a one stop solution.
+For some one who wants to dine at the best restaurants in Delhi, this is a one stop solution.
 This project is the final delivery of the IBM Data Science Professional Certificate, 
 and its objective is to find out the best restaurants keeping different criteria in mind such as price and ratings which 
 are key factors in determining a place to dine in when we are looking out for options.
+The target audience would be anyone who is looking out for restaurants where they can relish good food and also fits in their budget.
+
