@@ -1,13 +1,13 @@
+Introduction:
 
-Introduction
-
-
+Problem Statement:
  New Delhi is a big city and new restaurants open up everyday. 
  The area of Delhi is very large too with mix and match of all sorts of places. 
  It hosts a population of 1.9 crores. 
- When it comes to food, there are dozens of options aswell. The city is crowded with a lot of restaurants and fine places to dine in. 
+ When it comes to food, there are thousands of options aswell. The city is crowded with a lot of restaurants and fine places to dine in. It becomes tricky to find 
+ good options that offer customer satisfaction and doesn't create a hole in your pocket.
 
-
+Solution:
 The intent is to analyze types of restaurants on the basis of their location, ratings and price.
 For some one who wants to dine at the best restaurants in Delhi, this is a one stop solution.
 This project is the final delivery of the IBM Data Science Professional Certificate, 
